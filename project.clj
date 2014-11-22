@@ -10,4 +10,5 @@
                  [clj-diff "1.0.0-SNAPSHOT"]
                  [clj-time "0.9.0-beta1"]
                  [org.clojure/data.csv "0.1.2"]
-                 [protoflex/parse-ez "0.4.2"]])
+                 [protoflex/parse-ez "0.4.2"]
+                 [valip "0.2.0"]])

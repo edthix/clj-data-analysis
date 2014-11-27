@@ -6,9 +6,11 @@
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [incanter/incanter-core "1.5.1"]
                  [incanter/incanter-io "1.5.1"]
+                 [incanter/incanter-charts "1.5.1"]
                  [org.clojure/data.json "0.2.5"]
                  [clj-diff "1.0.0-SNAPSHOT"]
                  [clj-time "0.9.0-beta1"]
                  [org.clojure/data.csv "0.1.2"]
                  [protoflex/parse-ez "0.4.2"]
-                 [valip "0.2.0"]])
+                 [valip "0.2.0"]
+                 [criterium "0.4.3"]])

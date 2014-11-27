@@ -57,4 +57,4 @@
     (send *agent* starve-safe sleep-for)
     tag))
 
-(start-agents starve-safe 0 0)
+;; (start-agents starve-safe 0 0)

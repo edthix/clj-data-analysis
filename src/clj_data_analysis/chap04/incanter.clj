@@ -9,12 +9,12 @@
                 :cols [:POP100 :HU100])))
 
 (def population (sel data :cols 0))
-population
+
+
 (def housing-units (sel data :cols 1))
-housing-units
+
 (def lm (linear-model housing-units population))
 
 (def plot (scatter-plot population housing-units :legend true))
 (add-lines plot population (:fitted lm))
 (view plot)
-

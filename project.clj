@@ -13,4 +13,5 @@
                  [org.clojure/data.csv "0.1.2"]
                  [protoflex/parse-ez "0.4.2"]
                  [valip "0.2.0"]
-                 [criterium "0.4.3"]])
+                 [criterium "0.4.3"]
+                 [calx "0.2.1"]])

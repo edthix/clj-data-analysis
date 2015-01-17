@@ -14,4 +14,13 @@
                  [protoflex/parse-ez "0.4.2"]
                  [valip "0.2.0"]
                  [criterium "0.4.3"]
-                 [calx "0.2.1"]])
+                 [calx "0.2.1"]
+                 [cascalog "1.10.0"]
+                 [org.slf4j/slf4j-api "1.7.2"]
+                 ]
+  :repositories [["conjars.org" "http://conjars.org/repo"]]
+  :profiles
+  {:dev
+   {:dependencies
+    [[org.apache.hadoop/hadoop-core "1.1.1"]]}}
+  )

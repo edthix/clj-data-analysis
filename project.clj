@@ -18,6 +18,7 @@
                  [org.slf4j/slf4j-api "1.7.2"]
                  ]
   :repositories [["conjars.org" "http://conjars.org/repo"]]
+  :plugins [[cider/cider-nrepl "0.8.2"]]
   :profiles
   {:dev
    {:dependencies

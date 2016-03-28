@@ -52,3 +52,7 @@ fatality-count
 
 ;; we find the parameter that best fit the function to the data using the non-linear-model function.
 (def nlm (o/non-linear-model sine-wave fatality-count speed-limit start))
+
+(-> chart
+    (c/add-lines speed-limit (sine-wave start speed-limit))
+    (c/add-lines speed-limit (:fitted nlm)))

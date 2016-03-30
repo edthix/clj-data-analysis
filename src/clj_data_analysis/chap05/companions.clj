@@ -1,7 +1,6 @@
 (ns clj-data-analysis.chap05.companions
   (:require [clojure.string :as string]))
 
-
 (def input-data
   [{:given-name "Susan", :surname "Forman", :doctors [1]}
    {:given-name "Barbara", :surname "Wright", :doctors [1]}
@@ -78,4 +77,3 @@
    [9 "Christopher Eccleston" "2005"]
    [10 "David Tennant" "2005–10"]
    [11 "Matt Smith" "2010–present"]])
-
